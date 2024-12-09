@@ -3,12 +3,13 @@ import styled from "styled-components";
 import Slider from "./Slider";
 import slides from "./imagenes.json";
 
-export const HeroStyled = styled.div`
+export const HeroStyled = styled.section`
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
 	opacity: 100%;
+	max-width: 1800px;
 `;
 
 // export const SwiperStyled = styled.Swiper`

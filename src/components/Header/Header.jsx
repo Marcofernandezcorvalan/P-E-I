@@ -6,10 +6,10 @@ export const HeaderCont = styled.header`
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	background-color: #c2e4dbab;
-	height: 100px;
+	background-color: #ffee07;
+	height: 80px;
 	padding: 5px 30px;
-	border-bottom: 0.5px solid gray;
+	/* border-bottom: 0.5px solid gray; */
 `;
 export const Navbar = styled.ul`
 	display: flex;
@@ -22,6 +22,8 @@ export const Navbar = styled.ul`
 `;
 export const Items = styled.a`
 	cursor: pointer;
+	font-weight: 600;
+	color: black;
 `;
 export const Logo = styled.img`
 	height: 40px;
@@ -33,9 +35,9 @@ const Header = () => {
 		<HeaderCont>
 			<Logo src="../../../public/vite.svg" alt="logo"></Logo>
 			<Navbar>
-				<Items>Home</Items>
-				<Items>Productos</Items>
-				<Items>Contactanos</Items>
+				<Items href="#">Home</Items>
+				<Items href="#products">Productos</Items>
+				<Items href="">Contactanos</Items>
 			</Navbar>
 		</HeaderCont>
 	);
