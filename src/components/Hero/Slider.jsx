@@ -9,8 +9,16 @@ import styled from "styled-components";
 
 export const ImgSty = styled.img`
 	width: 100%;
-	height: 450px;
+	height: 500px;
+	border-radius: 7px;
 `;
+// export const SwiperStyled = styled.Swiper`
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	width: 90%;
+// 	height: 400px;
+// `;
 
 const Slider = ({ slides }) => {
 	return (

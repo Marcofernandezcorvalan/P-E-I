@@ -10,10 +10,13 @@ export const ProductCard = styled.div`
 	padding: 20px 10px;
 	height: 250px;
 	width: 250px;
-	background: var(--secondbg);
+	/* background: var(--secondbg); */
+	background: #c7c7c78f;
+	color: black;
 `;
 export const ProductCardTitle = styled.h4`
 	font-size: 13px;
+	font-weight: 700;
 `;
 export const ProductCardSecondCont = styled.div`
 	display: flex;
@@ -26,8 +29,9 @@ export const ProductCardSpan = styled.span`
 	font-size: 14px;
 `;
 export const ProductCardImg = styled.img`
-	height: 110px;
+	height: 150px;
 	width: 100%;
+	border-radius: 10px;
 `;
 
 const ProductCardComp = ({ img, title, price, id }) => {
@@ -36,9 +40,9 @@ const ProductCardComp = ({ img, title, price, id }) => {
 			<ProductCard key={id}>
 				<ProductCardImg src={img} alt={title} />
 				<ProductCardTitle>{title}</ProductCardTitle>
-				<ProductCardSecondCont>
+				{/* <ProductCardSecondCont>
 					<ProductCardSpan>{price}</ProductCardSpan>
-				</ProductCardSecondCont>
+				</ProductCardSecondCont> */}
 			</ProductCard>
 		</>
 	);

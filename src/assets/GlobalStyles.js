@@ -27,9 +27,10 @@ export const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         /* background: #171717; */
-        background: var(--background);
+        /* background: var(--background); */
         /* background-color: #041206; */
         /* background-color: #F2F3F5; */
+        background: whitesmoke;
         font-family: 'Rubik', sans-serif;
         color: black;
         -webkit-tap-highlight-color: transparent;

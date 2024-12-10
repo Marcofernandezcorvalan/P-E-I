@@ -17,6 +17,7 @@ export const ProductsContGen = styled.section`
 export const ProdTitle = styled.h2`
 	font-weight: 600;
 	margin-bottom: 80px;
+	color: black;
 `;
 
 export const ProdsCont = styled.div`

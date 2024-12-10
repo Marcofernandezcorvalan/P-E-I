@@ -9,7 +9,9 @@ export const HeroStyled = styled.section`
 	justify-content: center;
 	width: 100%;
 	opacity: 100%;
-	max-width: 1800px;
+	max-width: 1366px;
+	padding: 35px;
+	margin-top: 40px;
 `;
 
 // export const SwiperStyled = styled.Swiper`
