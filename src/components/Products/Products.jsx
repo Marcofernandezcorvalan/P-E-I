@@ -11,27 +11,28 @@ export const ProductsContGen = styled.section`
 	color: whitesmoke;
 	/* background: var(--secondbg); */
 	padding: 20px;
-	width: 90%;
+	width: 100%;
 `;
 
 export const ProdTitle = styled.h2`
-	font-weight: 600;
-	margin-bottom: 80px;
+	font-weight: 400;
+	margin-bottom: 35px;
 	color: black;
+	font-size: 28px;
 `;
 
 export const ProdsCont = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 20px;
+	gap: 35px;
 	flex-wrap: wrap;
 `;
 
 const Products = () => {
 	return (
 		<ProductsContGen id="products">
-			<ProdTitle>Productos</ProdTitle>
+			<ProdTitle>Nuestros Productos</ProdTitle>
 			<ProdsCont>
 				{products?.map((products) => {
 					return <ProductCardComp {...products} key={products.id} />;
