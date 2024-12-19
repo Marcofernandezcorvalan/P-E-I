@@ -17,6 +17,7 @@ export const ProductCard = styled.div`
 export const ProductCardTitle = styled.h4`
 	font-size: 13px;
 	font-weight: 500;
+	padding-bottom: 10px;
 `;
 export const ProductCardSecondCont = styled.div`
 	display: flex;

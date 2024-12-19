@@ -3,24 +3,25 @@ import styled from "styled-components";
 import Slider from "./Slider";
 import slides from "./imagenes.json";
 
-export const HeroCont = styled.div`
+export const HeroCont = styled.section`
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
 	padding: 10px;
 	gap: 10px;
+	margin-top: 70px;
 `;
 
-export const HeroStyled = styled.section`
+export const HeroStyled = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 70%;
 	opacity: 100%;
 	max-width: 1366px;
-	padding: 35px 0px;
-	margin-top: 40px;
+	/* padding: 35px 0px; */
+	/* margin-top: 40px; */
 `;
 
 export const ParrafCont = styled.div`
@@ -31,8 +32,9 @@ export const ParrafCont = styled.div`
 	gap: 30px;
 	background-color: #dbdbdbd1;
 	padding: 20px;
-	height: 450px;
+	height: 480px;
 	border-radius: 7px;
+	margin-bottom: 7px;
 `;
 
 export const ParrafTitle = styled.h3`
