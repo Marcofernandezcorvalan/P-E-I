@@ -7,8 +7,8 @@ export const ProductCard = styled.div`
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 5px;
-	height: 230px;
+	padding: 10px 10px;
+	height: 240px;
 	width: 280px;
 	/* background: var(--secondbg); */
 	background: #c7c7c78f;
@@ -30,9 +30,8 @@ export const ProductCardSpan = styled.span`
 	font-size: 14px;
 `;
 export const ProductCardImg = styled.img`
-	height: 150px;
-	width: 100%;
-	border-radius: 7px;
+	height: 200px;
+	/* width: 80%; */
 	opacity: 94%;
 `;
 
