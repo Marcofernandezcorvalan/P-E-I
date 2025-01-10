@@ -47,7 +47,7 @@ const Header = () => {
 			<Navbar>
 				<Items href="#">Home</Items>
 				<Items href="#products">Productos</Items>
-				<Items href="">Contactanos</Items>
+				<Items href="#contact">Contactanos</Items>
 			</Navbar>
 		</HeaderCont>
 	);
