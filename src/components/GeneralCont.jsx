@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Hero from "./Hero/Hero";
 import Products from "./Products/Products";
 import Contact from "./Contact/Contact";
+import Benefits from "./Benefits/Benefits";
 
 export const GenCont = styled.main`
 	display: flex;
@@ -17,6 +18,7 @@ const GeneralCont = () => {
 	return (
 		<GenCont>
 			<Hero />
+			<Benefits />
 			<Products />
 			<Contact />
 		</GenCont>

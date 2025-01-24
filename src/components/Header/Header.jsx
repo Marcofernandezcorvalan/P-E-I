@@ -21,6 +21,7 @@ export const Navbar = styled.ul`
 	justify-content: space-around;
 	font-size: 14px;
 	color: black;
+	gap: 30px;
 	/* margin-right: 40px; */
 	/* text-decoration: underline; */
 	/* text-transform: capitalize; */
@@ -29,6 +30,7 @@ export const Items = styled.a`
 	cursor: pointer;
 	font-weight: 500;
 	color: black;
+	font-size: 15px;
 	/* border-bottom: 2px solid black; */
 	/* &.hover {
 		border-bottom: 1px solid black;
@@ -46,6 +48,7 @@ const Header = () => {
 			<Logo src="../../../public/vite.svg" alt="logo"></Logo>
 			<Navbar>
 				<Items href="#">Home</Items>
+				<Items href="#benefits">Beneficios</Items>
 				<Items href="#products">Productos</Items>
 				<Items href="#contact">Contactanos</Items>
 			</Navbar>

@@ -6,16 +6,26 @@ export const ContactCont = styled.footer`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #0d0d0d;
 	width: 100%;
-	color: whitesmoke;
 `;
+
+export const ContactTitle = styled.h3`
+	font-size: 24px;
+	font-weight: 500;
+`;
+
 export const ContactParraf = styled.span`
-	font-weight: 600;
+	font-weight: 400;
 `;
 
 const Contact = () => {
-	return <ContactCont id="contact">contact</ContactCont>;
+	return (
+		<ContactCont id="contact">
+			<ContactTitle>Contactanos</ContactTitle>
+			<ContactParraf>atencion al cliente:</ContactParraf>
+			<ContactParraf>3410912727</ContactParraf>
+		</ContactCont>
+	);
 };
 
 export default Contact;

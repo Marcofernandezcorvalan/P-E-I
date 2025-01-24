@@ -32,7 +32,7 @@ export const ProdsCont = styled.div`
 const Products = () => {
 	return (
 		<ProductsContGen id="products">
-			<ProdTitle>Nuestros Productos</ProdTitle>
+			<ProdTitle style={{ marginTop: "70px" }}>Nuestros Productos</ProdTitle>
 			<ProdsCont>
 				{products?.map((products) => {
 					return <ProductCardComp {...products} key={products.id} />;
