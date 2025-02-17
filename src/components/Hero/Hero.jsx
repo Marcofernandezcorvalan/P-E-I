@@ -57,7 +57,6 @@ export const Parraf = styled.p`
 `;
 
 export const ParrafCont2 = styled.div`
-	display: none;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -67,7 +66,9 @@ export const ParrafCont2 = styled.div`
 	padding: 60px;
 	height: 300px;
 	border-radius: 7px;
-
+	@media screen and (min-width: 1100px) {
+		display: none;
+	}
 	@media screen and (max-width: 1100px) {
 		display: flex;
 	}
@@ -122,6 +123,7 @@ function Hero() {
 			<HeroStyled>
 				<Slider slides={slides} />
 			</HeroStyled>
+
 			<ParrafCont2>
 				<ParrafTitle2>Sobre Nosotros</ParrafTitle2>
 				<Parraf2>
