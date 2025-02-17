@@ -13,6 +13,10 @@ export const ProductCard = styled.div`
 	/* background: var(--secondbg); */
 	background: #c7c7c78f;
 	color: black;
+	&:hover {
+		transform: scale(1.2);
+		transition: all 0.2s ease;
+	}
 `;
 export const ProductCardTitle = styled.h4`
 	font-size: 13px;
@@ -30,8 +34,7 @@ export const ProductCardSpan = styled.span`
 	font-size: 14px;
 `;
 export const ProductCardImg = styled.img`
-	height: 200px;
-	/* width: 80%; */
+	height: 190px;
 	opacity: 94%;
 `;
 

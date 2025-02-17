@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import LogoImg from "../../assets/LogoImg.png";
 
 export const HeaderCont = styled.header`
 	display: flex;
@@ -36,16 +37,27 @@ export const Items = styled.a`
 		border-bottom: 1px solid black;
 	} */
 	/* text-transform: capitalize; */
+	&:hover {
+		text-decoration: underline;
+		font-weight: 600;
+		transform: scale(1.1);
+		transition: all 0.2s ease;
+	}
+	@media screen and (max-width: 1100px) {
+		font-size: 14px;
+	}
 `;
 export const Logo = styled.img`
-	height: 40px;
-	margin-left: 40px;
+	height: 90px;
+	/* width: 150px; */
+	/* margin-left: 40px; */
+	/* padding: 5px; */
 `;
 
 const Header = () => {
 	return (
 		<HeaderCont>
-			<Logo src="../../../public/vite.svg" alt="logo"></Logo>
+			<Logo src={LogoImg} alt="logo"></Logo>
 			<Navbar>
 				<Items href="#">Home</Items>
 				<Items href="#benefits">Beneficios</Items>
