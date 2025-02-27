@@ -11,7 +11,7 @@ export const HeaderCont = styled.header`
 	background-color: #dbdbdbd1;
 	height: 80px;
 	padding: 5px 30px;
-	/* border-bottom: 0.5px solid black; */
+	border-bottom: 0.5px solid #0a0a0a34;
 	position: fixed;
 	z-index: 2;
 `;

@@ -25,6 +25,8 @@ export const BenefitsCard = styled.div`
 	height: 300px;
 	width: 300px;
 	border-radius: 7px;
+	border-bottom: 6px solid #0a0a0a34;
+	border-left: 5px solid #0a0a0a88;
 	background-color: #c7c7c78f;
 	padding: 20px;
 	gap: 20px;

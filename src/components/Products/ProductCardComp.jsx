@@ -11,7 +11,7 @@ export const ProductCard = styled.div`
 	height: 240px;
 	width: 280px;
 	/* background: var(--secondbg); */
-	background: #c7c7c78f;
+	background: white;
 	color: black;
 	&:hover {
 		transform: scale(1.2);

@@ -41,6 +41,8 @@ export const ParrafCont = styled.div`
 	height: 480px;
 	border-radius: 7px;
 	margin-bottom: 7px;
+	border-bottom: 6px solid #0a0a0a34;
+	border-left: 5px solid #0a0a0a88;
 	@media screen and (max-width: 1100px) {
 		display: none;
 	}
@@ -49,6 +51,7 @@ export const ParrafCont = styled.div`
 export const ParrafTitle = styled.h3`
 	font-size: 30px;
 	font-weight: 400;
+	text-decoration: underline;
 `;
 
 export const Parraf = styled.p`

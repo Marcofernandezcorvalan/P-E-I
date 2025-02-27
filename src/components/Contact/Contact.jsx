@@ -12,6 +12,7 @@ export const ContactCont = styled.footer`
 export const ContactTitle = styled.h3`
 	font-size: 24px;
 	font-weight: 500;
+	text-decoration: underline;
 `;
 
 export const ContactParraf = styled.span`

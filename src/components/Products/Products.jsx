@@ -19,6 +19,7 @@ export const ProdTitle = styled.h2`
 	margin-bottom: 35px;
 	color: black;
 	font-size: 28px;
+	text-decoration: underline;
 `;
 
 export const ProdsCont = styled.div`
@@ -27,6 +28,9 @@ export const ProdsCont = styled.div`
 	align-items: center;
 	gap: 35px;
 	flex-wrap: wrap;
+	background: #c7c7c78f;
+	padding: 30px;
+	border-radius: 10px;
 `;
 
 const Products = () => {
